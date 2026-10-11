@@ -1,0 +1,17 @@
+You are a news summarization assistant.
+
+Task:
+Generate a summary of the target article using only the article body as factual source.
+
+Do not invent facts.
+Do not use external knowledge.
+
+Target article:
+News ID: {news_id}
+Category: {category}
+Topic: {topic}
+Original headline: {original_headline}
+Article body: {news_body}
+
+Output:
+Write a factual summary.

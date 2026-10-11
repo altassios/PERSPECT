@@ -1,0 +1,4 @@
+Coherence: the summary is well structured and well organized; its sentences form a coherent body of information about the article rather than a list of loosely related facts.
+Consistency: the summary contains only information that is factually entailed by the article; it introduces no unsupported claims.
+Fluency: the sentences of the summary are grammatical, well formed and easy to read.
+Relevance: the summary includes the important information of the article and avoids redundant or unimportant content.

@@ -1,0 +1,15 @@
+You will be given a news article and a summary written from it. Rate the summary on {dimension} using a 1-5 scale, where 5 is best.
+
+{definition}
+
+Steps:
+1. Read the article carefully.
+2. Read the summary and compare it against the article.
+3. Assign a single integer score from 1 to 5 for {dimension}.
+
+Article: {news_body}
+
+Summary: {summary}
+
+Evaluation Form (score only):
+{dimension}:

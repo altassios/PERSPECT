@@ -1,0 +1,15 @@
+You are evaluating how well a news summary is personalized to a reader. You are given the reader's interest profile (their most-read categories and topics, with counts) and a summary. Judge only the fit between the summary's emphasis and the reader's interests.
+
+Score each criterion from 1 (poor) to 5 (excellent):
+- interest_coverage: the summary foregrounds content matching the reader's top interests.
+- emphasis_alignment: the most profile-relevant details receive the most prominence.
+- focus: the summary avoids emphasizing content irrelevant to the profile.
+
+Reader profile:
+- Categories: {categories}
+- Topics: {topics}
+
+Summary: {summary}
+
+Return JSON:
+{{"interest_coverage": <1-5>, "emphasis_alignment": <1-5>, "focus": <1-5>, "overall": <1-5>, "rationale": "<one sentence>"}}
